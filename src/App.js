@@ -1,8 +1,13 @@
-import logo from "./logo.svg";
-import "./App.css";
+import FirstChild from "./firstchild";
+import SecondChild from "./secondchild";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <FirstChild />
+      <SecondChild />
+    </>
+  );
 }
 
 export default App;
